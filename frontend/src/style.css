@@ -1,0 +1,87 @@
+
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 0;
+  min-height: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background: #0f1930;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+#app {
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar to match site aesthetics */
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #8e28ee #0f1930;
+}
+
+/* Chrome, Edge, Safari, and Opera support */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1930;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #c07bff 0%, #8e28ee 100%);
+  border-radius: 10px;
+  border: 2px solid #0f1930;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #d89eff 0%, #a246ff 100%);
+}
