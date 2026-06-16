@@ -18,7 +18,7 @@
 
 <script>
 import Navbar from "../components/Navbar.vue"
-import StatCard from "../components/StatCard.vue"
+import StatCard from "../components/statCard.vue"
 
 export default {
   components: {
